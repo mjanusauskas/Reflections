@@ -4,3 +4,18 @@ The hidden .git folder is created and git knows to start tracking the contaned  
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is a temporary holding place to organize what will be included in a logical commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+You can use diff to verify the changes between the staging area and working directory before performing the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When testing some experimental changes or features to not effect the master branch.
+
+How do the diagrams help you visualize the branch structure?
+They show the specified branches and how the changes sync up in terms of timeline with each other.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All changes from both branches are cobined and the tip of the branch that is checked out at the time of the merge is updated to the merge commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merges may result in conflict errors but manual merging will always be explicit.
+
