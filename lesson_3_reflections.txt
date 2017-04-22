@@ -4,3 +4,6 @@ Remote repositories are useful for allowing for collaboration among multiple peo
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If pulls were done automatically then unexpected changes could be introduced that the code is not yet ready for.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A fork is a copy of a repository that you add to your own account. A clone is just a copy of any repository. A branch is a set of commits within a single repository. Forks are used when you don't have permission to modify a given repository. Cloning is used to make a copy of a repository on a local machine. Branches are used to develop features or test something without affecting the main or master version.
+
