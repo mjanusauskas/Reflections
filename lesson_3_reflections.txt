@@ -10,3 +10,6 @@ A fork is a copy of a repository that you add to your own account. A clone is ju
 What is the benefit of having a copy of the last known state of the remote stored locally?
 This allows you to be able to track any changes that have happened on the local copy of the repository.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Less technical steps and knowledge would be required but tracking all changes would need to be done manually and roling back to a previous known state would at times be impossible.
+
