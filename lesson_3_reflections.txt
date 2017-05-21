@@ -13,3 +13,6 @@ This allows you to be able to track any changes that have happened on the local 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Less technical steps and knowledge would be required but tracking all changes would need to be done manually and roling back to a previous known state would at times be impossible.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Making changes directly in Master simplifies the workflow but also directly chages the current working version. Using a sepparate branch allows for independent testing and development that does not effect the Master branch until it is completed, reviewed and merged.
+
